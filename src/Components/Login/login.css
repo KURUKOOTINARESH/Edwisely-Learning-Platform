@@ -1,0 +1,82 @@
+.login-container{
+
+}
+.top-section{
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-left-section{
+
+}
+.login-logo{
+    width: 140px;
+    height: 40px;
+}
+.login-icon{
+    font-size: 24px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.field-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.field-label{
+    font-weight: bold;
+    font-size: 16px;
+}
+.field{
+    height: 44px;
+    width: 100%;
+    padding-left: 8px;
+    border: 2px solid #808080b0;
+    margin-top: 8px;
+}
+.help-container{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-me-container{
+    display: flex;
+}
+.buttons-container{
+    display: flex;
+    margin-top: 12px;
+}
+.submit-button{
+    height: 60px;
+    padding: 4px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    /*background-image:linear-gradient(140deg,rgb(59, 103, 205),rgb(141, 53, 229));*/
+    background-color: rgb(84, 84, 220);
+    color: white;
+    margin-right: 4rem;
+}
+.error{
+    border-color: red;
+}
+.submit-button:hover{
+    cursor: pointer;
+}
+.error-text{
+    color: red;
+}
